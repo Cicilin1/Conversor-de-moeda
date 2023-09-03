@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Nunito:wght@400;700&family=Poppins:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #245953;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #808080;
+    padding: 2rem;
+    opacity: 0%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #fff;
+    /* margin: 6rem  5rem auto 5rem; */
+
+    border: 4px solid #808080;
+    border-radius: 12px;
+    margin-top: 2rem;
+
+    width: 60vw;
+}
+
+.title {
+    background-color: #D8D8D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 1rem;
+
+    border: none;
+    border-radius: 9px;
+
+    margin-bottom: 2rem;
+}
+
+.img-title {
+    width: 3.5rem;
+    padding-right: 0.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+main select {
+    text-align: center;
+    border: 1px solid #808080;
+    padding: 0.6rem;
+    border-radius: 15px;
+    width: 13rem;
+}
+
+.input-number {
+    border-radius: 15px;
+    border: 1px solid #808080;
+    padding: 0.7rem;
+    margin-left: 0.2rem;
+
+    text-align: center;
+    font-size: 0.8rem;
+    width: 9rem;
+}
+
+p {
+    margin: 1rem 0 1rem 0;
+}
+
+button {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #245953;
+    color: white;
+    font-size: 1.5rem;
+
+    margin-top: 2rem;
+}
+
+button:hover {
+    background-color: #245940;
+    cursor: pointer;
+}
+
+
+.result {
+    padding: 2rem 0 4rem 0;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+@media screen and (max-width:752px) {
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        margin: 0rem 0 1rem 0;
+    }
+
+    .img-title {
+        width: 3.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .options {
+        text-align: center;
+    }
+
+    .input-number {
+        margin: 1rem;
+    }
+
+    .result {
+        padding: 2rem 0 1rem 0;
+        font-size: 1.5rem;
+    }
+
+}
