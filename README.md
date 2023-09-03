@@ -2,9 +2,9 @@
 
 Este é um simples conversor de moeda que permite aos usuários converter valores de uma moeda para outra.
 
-Obs: Neste momento estou trabalhando com taxas de cambio aproximadas (futuramente irei integrar com uma API)
+Obs: Neste momento estou trabalhando com taxas de cambio aproximadas! (futuramente irei integrar com uma API)
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshots/Print.png)
 
 ## Funcionalidades
 
