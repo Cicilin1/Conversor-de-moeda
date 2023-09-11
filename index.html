@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <div class="title">
+            <img src="./assets/accounts.png" alt="currency converter" class="img-title">
+            <h1>Conversor</h1>
+        </div>
+
+        <div class="options">
+            <select name="Coin1" class="coin1">
+                <option value="real">REAL (BRL)</option>
+                <option value="dolar">DOLAR (USD)</option>
+                <option value="euro">EURO (EUR)</option>
+                <option value="libra">LIBRA ESTERLINA (GBP)</option>
+                <option value="iene">IENE JANOPES (JPY)</option>
+            </select>
+
+            <input type="number" class="input-number" min="0" step="0.01" placeholder="Digite um valor">
+        </div>
+
+        <p>em</p>
+
+        <div class="options2">
+            <select name="Coin2" class="coin2">
+                <option value="dolar">DOLAR (USD)</option>
+                <option value="real">REAL (BRL)</option>
+                <option value="euro">EURO (EUR)</option>
+                <option value="libra">LIBRA ESTERLINA (GBP)</option>
+                <option value="iene">IENE JANOPES (JPY)</option>
+            </select>
+        </div>
+
+        <Button onclick="validarcampo()">Calcular</Button>
+        <div class="result">R$ 00.00</div>
+    </main>
+    
+</body>
+<script src="./script.js"></script>
+
+</html>
