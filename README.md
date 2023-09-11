@@ -17,4 +17,4 @@ Obs: Neste momento estou trabalhando com taxas de cambio aproximadas! (futuramen
 ## <h2> Link </h2>
 
 
-   [Link do projeto](https://cicilin1.github.io/Conversor-de-moeda/)
+   https://cicilin1.github.io/Conversor-de-moeda/
