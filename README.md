@@ -4,7 +4,7 @@ Este é um simples conversor de moeda que permite aos usuários converter valore
 
 Obs: Neste momento estou trabalhando com taxas de cambio aproximadas! (futuramente irei integrar com uma API)
 
-![Screenshot](screenshots/Print.png)
+![Screenshot](screenshots/Screen-print.png)
 
 ## Funcionalidades
 
