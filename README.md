@@ -1,6 +1,6 @@
  <h1>:money_with_wings: Conversor de Moeda </h1>
 
-Este é um simples conversor de moeda que permite aos usuários converter valores de uma moeda para outra.
+Conversor de moedas que permite aos usuários converter valores de uma moeda para outra.
 
 Obs: Neste momento estou trabalhando com taxas de cambio aproximadas! (futuramente irei integrar com uma API)
 
